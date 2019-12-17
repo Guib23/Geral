@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
+
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Nome do Autor:</label>
+                <input type="text" class="form-control" id="autor" aria-describedby="emailHelp"
+                    placeholder="Digite o nome do Autor" value="Eca">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Sobrenome:</label>
+                <input type="text" class="form-control" id="sobre" aria-describedby="emailHelp"
+                    placeholder="Digite o sobrenome" value="de Queiroz">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Titulo:</label>
+                <input type="text" class="form-control" id="tit" placeholder="Titulo" value="O primo Basilio">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Número da Edição:</label>
+                <input type="text" class="form-control" id="edi" placeholder="Edição" value="25">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Local da Publicação:</label>
+                <input type="text" class="form-control" id="local" placeholder="Local da Publicação"
+                    value="Rio de Janeiro">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Nome da Editora:</label>
+                <input type="text" class="form-control" id="edit" placeholder="Editora" value="Ediouro">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Ano da Publicação:</label>
+                <input type="text" class="form-control" id="ano" placeholder="Ano da Publicação" value="1878">
+            </div>
+            <p id="texto"></p>
+            <button type="button" class="btn btn-primary" onclick="abnt()">Clique aqui!</button>
+        </div>
+    </form>
+    <script src='js/bootstrap.js'></script>
+    <script src='abnt.js'></script>
+    <script src='js/jquery.js'></script>
+    <script src='js/popper.js'></script>
+
+</body>
+
+</html>

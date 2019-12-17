@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head> 
+<body>
+    <script>
+
+
+        var nota = []
+        var media = 0;
+        var acimaM = 0;
+
+
+
+        for (let i = 0; i <= 5; i++) {
+            nota[i] = Number(window.prompt("Digite um número"))
+            media += nota[i];
+        }
+
+        media = media / nota.length;
+
+        for (let i = 0; i < nota.length; i++) {
+            if(nota[i] > media){
+                acimaM = acimaM + 1
+            }
+        }
+
+    alert("A media dos alunos é " + media)
+    alert("E " + acimaM + " ficaram com a nota acima da média")
+
+
+    </script>
+</body>
+
+</html>
